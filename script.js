@@ -15,7 +15,7 @@ function verificar() {
             genero = 'Homem'
             if (idade >=0 && idade < 10) {
               // criança
-              img.setAttribute('src', 'copia1.png')
+              img.setAttribute('src', 'copia11.png')
             } else if (idade < 21) {
               // jovem
               img.setAttribute('src', 'copia3.png')
@@ -36,10 +36,10 @@ function verificar() {
                 img.setAttribute('src', 'copia4.png')
               } else if (idade < 50){
                 // adulto
-                img.setAttribute('src', 'copia6.png')
+                img.setAttribute('src', 'copia62.png')
               } else {
                 // idoso
-                img.setAttribute('src', 'copia8.png')
+                img.setAttribute('src', 'copia822.png')
               }
         }
         res.style.textAlign = 'center'
